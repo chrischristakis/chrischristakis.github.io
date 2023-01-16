@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Chris Christakis</title>
+        <meta name="description" content="Some of my work">
+        <meta name="viewport" content="width=device-width, initial-scale=1"> 
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="stylesheets/overlay.css">
+        <link rel="stylesheet" href="stylesheets/projects.css">
+        <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+        <script src="https://kit.fontawesome.com/e6937631d3.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <canvas id="glcanvas"></canvas> <!-- GL content goes here, a pseudo-background. -->
+        <div id="splashscreen">
+            <div id="splash-overlay"></div>
+            <div id="intro-container">
+                <h1>Hey, my name is <span style="color:#2dc2b3;">Chris</span></h1>
+                <ul id="socials-bar">
+                    <li><a href="https://www.instagram.com/chrischristakis/" target="_blank">
+                        <i class="fa-brands fa-instagram fa-3x"></i>
+                    </a></li>
+                    <li><a href="https://github.com/chrischristakis" target="_blank">
+                        <i class="fa-brands fa-github fa-3x"></i>
+                    </a></li>
+                    <li><a href="https://www.tiktok.com/@chrishitskeys" target="_blank">
+                        <i class="fa-brands fa-tiktok fa-3x"></i>
+                    </a></li>
+                    <li><a href="mailto:chriscchristakis@gmail.com">
+                        <i class="fa-regular fa-envelope fa-3x"></i>
+                    </a></li>
+                </ul>
+                <img src="images/headshot.png" alt=":(" width="190">
+            </div>
+        </div>
+        <div id="info-container">
+            <div id="info-wrapper">
+                <div id="who-am-i">
+                    <h1>Who am I?</h1>
+                    <p>I'm Chris, currently enrolled in my last year of Western University's Software engineering program.</p>
+                    <p>As a kid, I was fascinated by games and gained a deep curiosity about how they worked, prompting me to learn how to code. Years later, I still love exploring game development, particularly on the engine side of things.</p>
+                    <p>I've also gained an interest in other facets of programming as well, such as making web applications (typically on the MERN stack), generative art, artificial intelligence, and embedded systems.</p>
+                    <p>Some of my other passions include photography, playing the piano, going to the gym, snowboarding, and watching long video essays about niche topics.</p>
+                </div>
+                <div id="projects">
+                    <h1>Projects</h1>
+                    <div class="project">
+                        <div class="project-img">
+                            <img src="images/ndsscenegraphrenderer.png" alt=":(">
+                        </div>
+                        <div class="project-info">
+                            <h2>Nintendo DS Scene Graph Renderer | <span style="color:#2dc2b3; font-style: italic;">C++, LibNDS, OpenGL</span></h2>
+                            <p>A fully functional Scene Graph Renderer made within the Nintendo DS using LIBNDS and to be run in the DeSMuME emulator.</p>
+                            <p>Supports a SceneGraph Tree with cascading transforms, an Entity Component System, Animation keyframe LERPing, and LODs.</p>
+                        </div>
+                        <a href="https://github.com/chrischristakis/NDS-SceneGraphRenderer" target="_blank"><i class="fa-brands fa-github fa-4x"></i></a>
+                    </div>
+                    <div class="project">
+                        <div class="project-img">
+                            <img src="images/ndsspacegame.png" alt=":(">
+                        </div>
+                        <div class="project-info">
+                            <h2>Nintendo DS Space Game | <span style="color:#2dc2b3; font-style: italic;">C++, LibNDS</span></h2>
+                            <p>A 2D space SHUMP made to run on the DS using embedded graphics on the OAM and Background layers.</p>
+                        </div>
+                        <a href="https://github.com/chrischristakis/nds-spacegame" target="_blank"><i class="fa-brands fa-github fa-4x"></i></a>
+                    </div>
+                    <div class="project">
+                        <div class="project-img">
+                            <img src="images/generativeart.png" alt=":(">
+                        </div>
+                        <div class="project-info">
+                            <h2>Various Generative art | <span style="color:#2dc2b3; font-style: italic;">JavaScript</span></h2>
+                            <p>Projects made during a week long challenge where I set aside an hour to make a generative program a day.</p>
+                        </div>
+                        <a href="https://github.com/chrischristakis?tab=repositories" target="_blank"><i class="fa-brands fa-github fa-4x"></i></a>
+                    </div>
+                    <div class="project">
+                        <div class="project-img">
+                            <img src="images/ropephysics.png" alt=":(">
+                        </div>
+                        <div class="project-info">
+                            <h2>Rope Physics | <span style="color:#2dc2b3; font-style: italic;">C++, SFML</span></h2>
+                            <p>A simulation of rope physics with both static and dynamic points using verlet integration</p>
+                        </div>
+                        <a href="https://github.com/chrischristakis/RopePhysics" target="_blank"><i class="fa-brands fa-github fa-4x"></i></a>
+                    </div>
+                    <div class="project">
+                        <div class="project-img">
+                            <img src="images/armsnake.png" alt=":(">
+                        </div>
+                        <div class="project-info">
+                            <h2>Snake (ARM DE1-SoC) | <span style="color:#2dc2b3; font-style: italic;">C++, ARMv7</span></h2>
+                            <p>An embedded snake game to be run in the DE1-SoC ARMv7 microcontroller. </p>
+                        </div>
+                        <a href="https://github.com/chrischristakis/ARM-DE1-Snake" target="_blank"><i class="fa-brands fa-github fa-4x"></i></a>
+                    </div>
+                    <div class="project">
+                        <div class="project-img">
+                            <img src="images/2dlightingdemo.png" alt=":(">
+                        </div>
+                        <div class="project-info">
+                            <h2>2D Lighting demo | <span style="color:#2dc2b3; font-style: italic;">C++, OpenGL</span></h2>
+                            <p>The interaction of two point lights over a texture using multiplicative blending, to show light interaction</p>
+                        </div>
+                        <a href="https://github.com/chrischristakis/2DLightingDemo" target="_blank"><i class="fa-brands fa-github fa-4x"></i></a>
+                    </div>
+                    <div class="project">
+                        <div class="project-img">
+                            <img src="images/waterdemo.png" alt=":(">
+                        </div>
+                        <div class="project-info">
+                            <h2>2D Pixelated Water | <span style="color:#2dc2b3; font-style: italic;">C++, OpenGL</span></h2>
+                            <p>Inspired by Celeste, a program made to simulate pixel-aligned water with multiple adjustable paramters.</p>
+                        </div>
+                        <a href="https://github.com/chrischristakis/2DLightingDemo" target="_blank"><i class="fa-brands fa-github fa-4x"></i></a>
+                    </div>
+                    <div class="project">
+                        <div class="project-img">
+                            <img src="images/drafymscheduleclone.png" alt=":(">
+                        </div>
+                        <div class="project-info">
+                            <h2>Draft My Schedule Clone | <span style="color:#2dc2b3; font-style: italic;">Mongo, Express, Angular, Node</span></h2>
+                            <p>A draft my schedule clone made for a web development course. Has functionality like authenticated logins, managing timetables by adding/removing courses, and admin accounts with special permissions.</p>
+                        </div>
+                        <a href="https://github.com/chrischristakis/Draft-My-Schedule-clone" target="_blank"><i class="fa-brands fa-github fa-4x"></i></a>
+                    </div>
+                    <div class="project">
+                        <div class="project-img">
+                            <img src="images/socketchat.png" alt=":(">
+                        </div>
+                        <div class="project-info">
+                            <h2>Terminal Socket chat app | <span style="color:#2dc2b3; font-style: italic;">Java</span></h2>
+                            <p>A terminal based socket chat app that can host multiple clients connecting and disconnecting, where clients can talk to eachother.</p>
+                        </div>
+                        <a href="https://github.com/chrischristakis/3313_project" target="_blank"><i class="fa-brands fa-github fa-4x"></i></a>
+                    </div>
+                    <div class="project">
+                        <div class="project-img">
+                            <img src="images/platformergl.PNG" alt=":(">
+                        </div>
+                        <div class="project-info">
+                            <h2>PlatformerGL | <span style="color:#2dc2b3; font-style: italic;">Java, OpenGL</span></h2>
+                            <p>A platformer made in LWJGL (OpenGL) With multiple levels and obstacles within each level. Levels are loaded from images.</p>
+                        </div>
+                        <a href="https://github.com/chrischristakis/PlatformerGL" target="_blank"><i class="fa-brands fa-github fa-4x"></i></a>
+                    </div>
+                    <div class="project">
+                        <div class="project-img">
+                            <img src="images/spaceshumpgl.png" alt=":(">
+                        </div>
+                        <div class="project-info">
+                            <h2>Space SHUMP GL | <span style="color:#2dc2b3; font-style: italic;">Java, OpenGL</span></h2>
+                            <p>A simple space SHUMP made in OpenGL</p>
+                        </div>
+                        <a href="https://github.com/chrischristakis/SpaceShumpGL" target="_blank"><i class="fa-brands fa-github fa-4x"></i></a>
+                    </div>
+                    <div class="project">
+                        <div class="project-img">
+                            <img src="images/tetrisgl.png" alt=":(">
+                        </div>
+                        <div class="project-info">
+                            <h2>BlocksGL | <span style="color:#2dc2b3; font-style: italic;">Java, OpenGL</span></h2>
+                            <p>A Tetris clone made in OpenGL (Overkill, but you live and you learn) Uses the Symmetric Rotation System and includes more Tetris classics, like wall kicks and T-Spins</p>
+                        </div>
+                        <a href="https://github.com/chrischristakis/BlocksGL" target="_blank"><i class="fa-brands fa-github fa-4x"></i></a>
+                    </div>
+                    <div class="project">
+                        <div class="project-img">
+                            <img src="images/swinggameoflife.png" alt=":(">
+                        </div>
+                        <div class="project-info">
+                            <h2>Game of Life | <span style="color:#2dc2b3; font-style: italic;">Java, Swing</span></h2>
+                            <p>An old project made to replicate Conway's game of life in Java Swing</p>
+                        </div>
+                        <a href="https://github.com/chrischristakis/swing-gameoflife" target="_blank"><i class="fa-brands fa-github fa-4x"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="scripts/gl-matrix-min.js"></script>
+        <script src="scripts/gl-script.js"></script>
+    </body>
+</html>
